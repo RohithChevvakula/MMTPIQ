@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.makeMyTrip.e2e.MmtTicketBooking" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-27T06:04:23" hostname="rohithc" time="58.046">
+  <properties/>
+  <testcase name="test" classname="com.makeMyTrip.e2e.MmtTicketBooking" time="58.046"/>
+  <system-out><![CDATA[15
+1
+Mumbai, India
+Chhatrapati Shivaji International Airport
+BOM
+Date before Addition: Sat Feb 27 2021
+Date after Addition: Mon Mar 01 2021
+Mon Mar 01 2021
+Date before Addition: Sat Feb 27 2021
+Date after Addition: Tue Mar 02 2021
+//p[contains(text(),'"+depDate+"')]/../div[2]//label["+n+"]/div/div[2]/div[2]/span
+//div[@id='ow-domrt-jrny']/div/div[2]
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 16307
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+</testsuite>
